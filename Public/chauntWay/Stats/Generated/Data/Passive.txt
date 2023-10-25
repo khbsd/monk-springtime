@@ -9,10 +9,10 @@ data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4+WisdomModif
 data "ToggleGroup" "Manifestation"
 
 
-new entry "KHB_coolingCold_Passive"
+new entry "KHB_coolingTouch_Passive"
 type "PassiveData"
-data "DisplayName" "KHB_coolingColdDisplayName;2"
-data "Description" "KHB_coolingColdDescription;5"
+data "DisplayName" "KHB_coolingTouchDisplayName;2"
+data "Description" "KHB_coolingTouchDescription;5"
 data "DescriptionParams" "DealDamage(1d4+WisdomModifier, Cold)"
 data "Icon" "GenericIcon_DamageType_Cold"
 data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
