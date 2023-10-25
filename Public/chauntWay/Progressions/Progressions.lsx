@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="330"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(KiPoint,1,0);ActionResource(DeflectMissiles_Charge,1,0)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Monk"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DeflectMissiles"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e"/>
+                    <attribute id="UUID" type="guid" value="296468cb-3640-4460-9f44-b30ee820a9ed"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="22894c32-54cf-49ea-b366-44bfcf01bb2a"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="2a5e3097-384c-4d29-8d6e-054fdfd26b80"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="bf46d73f-d406-4cb8-9a1d-e6e758ca02c7"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="4a869509-5807-4580-b570-0bf9fc2cc400"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Springtime"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="UnarmoredDefense_Monk"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_palpativeHeat_Passive;KHB_coolingCold_Passive;KHB_fertileEarth_Passive;KHB_gentleWind_Passive;KHB_caretakerCaress_Passive;KHB_caretakerTongue_Passive;KHB_bastionOfEarth"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="UUID" type="guid" value="b69a1d7a-174e-46fd-979d-70b34421ce02"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Springtime"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_charmEntitylv1_Passive;PV_HandsOfHealingUnlock"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="UUID" type="guid" value="54643259-a974-4197-9238-a24a61e78d58"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Springtime"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="KHB_charmEntitylv1_Passive;PV_HandsOfHealingUnlock"/>
+                    <attribute id="PassivesAdded" type="LSString" value="PV_HandsOfHealingUnlock_2;KHB_charmEntitylv2_Passive"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="UUID" type="guid" value="10abbd80-09c4-419c-aad5-b41aa97a8c64"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Springtime"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_skilledHands_Passive;KHB_HandsOfHarmUnlock;PV_HandOfUltimateMercyUnlock"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="UUID" type="guid" value="18be2aeb-3c71-4087-be76-df381359b0e2"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="Springtime"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_chaffFromWheat"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="UUID" type="guid" value="791c8fb5-1cf9-4c30-8309-e4f1185c7e26"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

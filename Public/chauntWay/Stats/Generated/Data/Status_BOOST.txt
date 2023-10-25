@@ -1,0 +1,8 @@
+new entry "KHB_tongueOfChauntea"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h5886a3afg59d3g4e5dgb396g15744f7e3424;1"
+data "Description" "he9684be0g1dd8g4e05ga451gd7d2588eb425;1"
+data "Icon" "Action_CharmAnimalsAndPlants"
+data "StackId" "PETPAL"
+data "Boosts" "Tag(PETPAL);"

@@ -1,0 +1,10 @@
+function HasLessHPThanPlayerLevel(target, source)
+    local target = target or context.Target
+    local source = source or context.Source
+    local value = (source.Level * 2) + source.ProficiencyBonus
+    if value < 24 then
+        value = 24
+    end
+
+    return ConditionResult(target.HP < value)
+end

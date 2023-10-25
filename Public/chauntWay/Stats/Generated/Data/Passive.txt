@@ -1,0 +1,142 @@
+new entry "KHB_palpativeHeat_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_palpativeHeatDisplayName;2"
+data "Description" "KHB_palpativeHeatDescription;5"
+data "DescriptionParams" "DealDamage(1d4+WisdomModifier, Fire)"
+data "Icon" "GenericIcon_DamageType_Fire"
+data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4+WisdomModifier, Fire);UnlockSpellVariant(MeleeUnarmedAttackCheck(),ModifyTargetRadius(Multiplicative,1))"
+data "ToggleGroup" "Manifestation"
+
+
+new entry "KHB_coolingCold_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_coolingColdDisplayName;2"
+data "Description" "KHB_coolingColdDescription;5"
+data "DescriptionParams" "DealDamage(1d4+WisdomModifier, Cold)"
+data "Icon" "GenericIcon_DamageType_Cold"
+data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4+WisdomModifier, Cold);UnlockSpellVariant(MeleeUnarmedAttackCheck(),ModifyTargetRadius(Multiplicative,1))"
+data "ToggleGroup" "Manifestation"
+
+
+new entry "KHB_fertileEarth_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_fertileEarthDisplayName;2"
+data "Description" "KHB_fertileEarthDescription;5"
+data "DescriptionParams" "DealDamage(1d4+WisdomModifier, Force)"
+data "Icon" "GenericIcon_DamageType_Force"
+data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4+WisdomModifier, Force);UnlockSpellVariant(MeleeUnarmedAttackCheck(),ModifyTargetRadius(Multiplicative,1))"
+data "ToggleGroup" "Manifestation"
+
+
+new entry "KHB_gentleWind_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_gentleWindDisplayName;2"
+data "Description" "KHB_gentleWindDescription;5"
+data "DescriptionParams" "DealDamage(1d4+WisdomModifier, Thunder)"
+data "Icon" "GenericIcon_DamageType_Thunder"
+data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4+WisdomModifier, Thunder);UnlockSpellVariant(MeleeUnarmedAttackCheck(),ModifyTargetRadius(Multiplicative,1))"
+data "ToggleGroup" "Manifestation"
+
+
+new entry "KHB_skilledHands_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_skilledHandsDisplayName;2"
+data "Description" "KHB_skilledHandsDescription;5"
+data "DescriptionParams" "DealDamage(WisdomModifier*2,Bludgeoning);Resistance(Bludgeoning,Resistant);Resistance(Bludgeoning,Immune)"
+data "Icon" "Action_PactOfTheBlade_Warhammer"
+data "Properties" "IgnoreResting;BringIntoCombat;ApplyToDead;Highlighted"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(WisdomModifier*2,Bludgeoning);UnlockSpellVariant(MeleeUnarmedAttackCheck(),ModifyTargetRadius(Multiplicative,1));IgnoreResistance(Bludgeoning,Resistant);IgnoreResistance(Bludgeoning,Immune)"
+
+
+new entry "KHB_chaffFromWheat"
+type "PassiveData"
+data "DisplayName" "KHB_chaffFromWheatDisplayName;2"
+data "Description" "KHB_chaffFromWheatDescription;7"
+data "DescriptionParams" "DealDamage(1d4,Force);24+ProficiencyBonus"
+data "Icon" "PassiveFeature_GrimHarvest"
+data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasLessHPThanPlayerLevel() and not IsKillingBlow() and TotalAttackDamageDoneGreaterThan(0) and not HasStatus('SG_Polymorph')"
+data "StatsFunctors" "Kill();CreateExplosion(KHB_chaffFromWheat_Projectile)"
+data "ToggleGroup" "NonLethal"
+
+
+new entry "KHB_bastionOfEarth"
+type "PassiveData"
+data "DisplayName" "KHB_bastionOfEarthDisplayName;2"
+data "Description" "KHB_bastionOfEarthDescription;5"
+data "Icon" "PassiveFeature_UnarmoredDefense"
+data "Properties" "Highlighted"
+data "BoostContext" "OnEquip;OnCreate"
+data "BoostConditions" "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)"
+data "Boosts" "ACOverrideFormula(11,true,Charisma,Wisdom)"
+
+
+new entry "KHB_caretakerCaress_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_caretakerCaressDisplayName;1"
+data "Description" "KHB_caretakerCaressDescription;1" 
+data "Icon" "Action_CharmAnimalsAndPlants"
+data "Properties" "IgnoreResting;ApplyToDead;BringIntoCombat;Highlighted"
+data "Boosts" "ProficiencyBonus(Skill,Medicine);ProficiencyBonus(Skill,AnimalHandling);ProficiencyBonus(Skill,Nature);Tag(PETPAL)"
+
+
+new entry "KHB_caretakerTongue_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_caretakerTongueDisplayName;1"
+data "Description" "KHB_caretakerTongueDescription;1" 
+data "Icon" "PassiveFeature_Charm"
+data "Properties" "IgnoreResting;ApplyToDead;BringIntoCombat;Highlighted"
+data "Boosts" "ProficiencyBonus(Skill,Persuasion);ProficiencyBonus(Skill,Deception);ProficiencyBonus(Skill,Insight)"
+
+
+new entry "KHB_charmEntitylv1_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_charmEntityDisplayName;1"
+data "Description" "KHB_charmEntityDescription;1"
+data "Boosts" "UnlockSpell(KHB_Target_CharmEntity_1)"
+
+
+new entry "KHB_charmEntitylv2_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_charmEntityDisplayName;1"
+data "Description" "KHB_charmEntityDescription;1"
+data "Boosts" "UnlockSpell(KHB_Target_CharmEntity_2)"
+
+
+new entry "KHB_HandsOfHarmUnlock"
+type "PassiveData"
+data "DisplayName" "KHB_HandsOfHarmDisplayName;1"
+data "Description" "KHB_HandsOfHarmDescription;1"
+data "Icon" "Spell_Necromancy_Harm"
+data "Boosts" "UnlockSpell(KHB_Target_HandsOfHarm)"
+
+
+new entry "PV_HandsOfHealingUnlock"
+type "PassiveData"
+data "DisplayName" "KHB_gentleWindDisplayName;1"
+data "Description" "KHB_gentleWindDisplayName;1"
+data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
+data "Boosts" "UnlockSpell(PV_Target_HandsOfHealing)"
+
+
+new entry "PV_HandsOfHealingUnlock_2"
+type "PassiveData"
+data "DisplayName" "KHB_gentleWindDisplayName;1"
+data "Description" "KHB_gentleWindDisplayName;1"
+data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
+data "Boosts" "UnlockSpell(PV_Target_HandsOfHealing_2)"
+
+
+new entry "PV_HandOfUltimateMercyUnlock"
+type "PassiveData"
+data "DisplayName" "PV_HandOfUltimateMercyDisplayName;1"
+data "Description" "PV_HandOfUltimateMercyDescription;1"
+data "Icon" "Spell_Necromancy_Revivify"
+data "Boosts" "UnlockSpell(PV_Target_HandOfUltimateMercy)"
+
+

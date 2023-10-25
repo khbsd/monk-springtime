@@ -1,0 +1,15 @@
+{
+    "FileVersion": 1,
+    "Progressions": [
+      {
+        "UUID": "c5306dad-68bf-4d2b-8cba-b153fd49ccb4",
+        "Subclasses": [
+          {
+            "UUID": "4a869509-5807-4580-b570-0bf9fc2cc400",
+            "SubClassName": "Springtime",
+            "Class": "monk"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+meta.lsx (mod) UUID "d0766f1b-3e74-4442-ba79-8ed733e22976"
+subclass uuid "4a869509-5807-4580-b570-0bf9fc2cc400"
+progressionTableUUID "c5306dad-68bf-4d2b-8cba-b153fd49ccb4"
+ProgressionDescriptions.lsx UUID "9a7db5ca-daa4-46b2-956c-a4f3a81db093"
+
+Progressions.lsx TableUUID "0e1901b3-7db7-48aa-8404-27e8071619fe"
+Progressions.lsx UUID "69d930b1-985b-4129-a564-e8dc7e659779"
+Progressions.lsx lv3 "b69a1d7a-174e-46fd-979d-70b34421ce02"
+Progressions.lsx lv6 "54643259-a974-4197-9238-a24a61e78d58"
+Progressions.lsx lv9 "10abbd80-09c4-419c-aad5-b41aa97a8c64"
+Progressions.lsx lv11 "18be2aeb-3c71-4087-be76-df381359b0e2"
+Progressions.lsx lv12 "791c8fb5-1cf9-4c30-8309-e4f1185c7e26"
+
+
+

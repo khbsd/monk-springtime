@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentList>
+    <!--Subclass Descriptions-->
+    <content contentuid="KHB_wayOfSpringtime" version="1">Way of Springtime</content>
+    <content contentuid="KHB_wayOfSpringtimeDescription" version="1">After generations of caring for the earth and its creatures, these druid-like monks have embraced and been embraced by Chauntea. </content>
+
+    <!--Unarmed attack passives-->
+    <content contentuid="KHB_palpativeHeatDisplayName" version="1">Palpative Heat</content>
+    <content contentuid="KHB_palpativeHeatDescription" version="1">Your strikes pulse like the heat of the earth, flushed skin, warm soil. Your unarmed attacks deal an additional [1].</content>
+    <content contentuid="KHB_coolingColdDisplayName" version="1">Cooling Cold</content>
+    <content contentuid="KHB_coolingColdDescription" version="1">Your strikes soothe burns, calm anger, and thicken blood. Your unarmed attacks deal an additional [1].</content>
+    <content contentuid="KHB_fertileEarthDisplayName" version="1">Fertile Earth</content>
+    <content contentuid="KHB_fertileEarthDescription" version="1">Your strikes synchronize with the earth, rhythms somewhere between love and an earthquake. Your unarmed attacks deal an additional [1].</content>
+    <content contentuid="KHB_gentleWindDisplayName" version="1">Gentle Wind</content>
+    <content contentuid="KHB_gentleWindDescription" version="1">Your strikes embody a warm breeze on bare flesh, as nimble as wind rolling through wheat fields. Your unarmed attacks deal an additional [1].</content>
+
+    <!--Spells-->
+    <content contentuid="KHB_charmEntityDisplayName" version="1">Charm Entity</content>
+    <content contentuid="KHB_charmEntityDescription" version="1">You feel the air between you and your target undulating in time with their heartbeat. This creature must succeed a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;.</content>
+    <content contentuid="PV_HandsOfHealingDisplayName" version="1">Hands of Healing</content>
+    <content contentuid="PV_HandsOfHealinglv1Description" version="1">When you touch a creature, you can restore [1].</content>
+    <content contentuid="PV_HandsOfHealinglv2Description" version="1">When you touch a creature, you can restore [1] and cure it of &lt;LSTag Type="Status" Tooltip="DISEASED"&gt;Disease&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysis&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt;.</content>
+    <content contentuid="KHB_HandsOfHarmDisplayName" version="1">Hands of Harm</content>
+    <content contentuid="KHB_HandsOfHarmDescription" version="1">Having seen and seeded so much life, you gain insight into its ruin. You can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; a creature you can touch indefinitely.</content>
+    <content contentuid="PV_HandOfUltimateMercyDisplayName" version="1">Hand of Ultimate Mercy</content>
+    <content contentuid="PV_HandOfUltimateMercyDescription" version="1">Bless a companion with your lips of life. They return from death with [1].</content>
+
+    <!--Abilities-->
+    <content contentuid="KHB_caretakerCaressDisplayName" version="1">Caretaker's Caress</content>
+    <content contentuid="KHB_caretakerCaressDescription" version="1">A heady rush of joy and adrenaline bubbles up from your stomach to your head. You feel closer to the earth and its children. You become &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in &lt;LSTag Tooltip="AnimalHandling"&gt;Animal Handling&lt;/LSTag&gt; and &lt;LSTag Tooltip="Nature"&gt;Nature&lt;/LSTag&gt;. Also, the birds near you are &lt;LSTag Type="Spell" Tooltip="Shout_SpeakWithAnimals"&gt;making sense&lt;/LSTag&gt; now?</content>
+    <content contentuid="KHB_caretakerTongueDisplayName" version="1">Caretaker's Tongue</content>
+    <content contentuid="KHB_caretakerTongueDescription" version="1">A sensation like warm honey pours over your tongue. You become &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in &lt;LSTag Tooltip="Deception"&gt;Deception&lt;/LSTag&gt;, &lt;LSTag Tooltip="Persuasion"&gt;Persuasion&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Insight"&gt;Insight&lt;/LSTag&gt;.</content>
+    <content contentuid="KHB_skilledHandsDisplayName" version="1">Skilled Hands</content>
+    <content contentuid="KHB_skilledHandsDescription" version="1">Your hands know the intricacies of most living things like their backs. Your strikes deal an additional [1], and ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Bludgeoning damage.</content>
+    <content contentuid="KHB_bastionOfEarthDisplayName" version="1">Bastion of Earth</content>
+    <content contentuid="KHB_bastionOfEarthDescription" version="1">Your body and soul unite to defend life. While not wearing armour, you add your Charisma and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+    <content contentuid="KHB_bastionOfEarthDisplayName" version="1">Bastion of Earth</content>
+    <content contentuid="KHB_bastionOfEarthDescription" version="1">Your body and soul unite to defend life. While not wearing armour, you add your Charisma and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+    <content contentuid="KHB_chaffFromWheatDisplayName" version="1">Separate the Chaff</content>
+    <content contentuid="KHB_chaffFromWheatDescription" version="1">When you bring a creature down to fewer than [2] &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it dies and all nearby creatures take [1].</content>
+
+</contentList>

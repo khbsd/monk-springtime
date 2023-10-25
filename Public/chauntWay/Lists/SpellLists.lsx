@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="329"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Springtime Monk level 11"/>
+                    <attribute id="Spells" type="LSString" value="Target_HandOfUltimateMercy"/>
+                    <attribute id="UUID" type="guid" value="394006db-70c6-43a9-a780-d54f3c0a8938"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
