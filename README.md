@@ -12,6 +12,9 @@
 ### Bastion of Earth
  - Your body and soul unite to defend life. While not wearing armour, you add your Charisma and Wisdom Modifiers to your Armour Class.
 
+### Charming Fingers
+ - Your fingers, long used to caring for living things, now have a seductive strength all their own. Your unarmed attacks scale with your Charisma Modifier.
+
 ##### (you may only use one of the following four at a time)
 ### Palpative Heat
  - Your strikes pulse like the heat of the earth, flushed skin, warm soil. Your unarmed attacks deal an additional 1d4 Fire Damage.

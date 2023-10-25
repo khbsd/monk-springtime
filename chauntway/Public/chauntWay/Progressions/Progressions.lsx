@@ -34,8 +34,8 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Springtime"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="UnarmoredDefense_Monk"/>
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_palpativeHeat_Passive;KHB_coolingTouch_Passive;KHB_fertileEarth_Passive;KHB_gentleWind_Passive;KHB_caretakerCaress_Passive;KHB_caretakerTongue_Passive;KHB_bastionOfEarth"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_palpativeHeat_Passive;KHB_coolingTouch_Passive;KHB_fertileEarth_Passive;KHB_gentleWind_Passive;KHB_caretakerCaress_Passive;KHB_caretakerTongue_Passive;KHB_bastionOfEarth;KHB_charmedFingers"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
                     <attribute id="UUID" type="guid" value="b69a1d7a-174e-46fd-979d-70b34421ce02"/>

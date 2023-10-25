@@ -15,6 +15,8 @@
     <content contentuid="KHB_gentleWindDescription" version="1">Your strikes embody a warm breeze on bare flesh, as nimble as wind rolling through wheat fields. Your unarmed attacks deal an additional [1].</content>
     <content contentuid="KHB_skilledHandsDisplayName" version="1">Skilled Hands</content>
     <content contentuid="KHB_skilledHandsDescription" version="1">Your hands know the intricacies of most living things like their backs. Your strikes deal an additional [1], and ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Bludgeoning damage.</content>
+    <content contentuid="KHB_charmingFingersDisplayName" version="1">Charming Fingers</content>
+    <content contentuid="KHB_charmingFingersDescription" version="1">Your fingers, long used to caring for living things, now have a seductive strength all their own. Your unarmed attacks scale with your Charisma Modifier.</content>
 
     <!--Spells-->
     <content contentuid="KHB_charmEntityDisplayName" version="1">Charm Entity</content>
@@ -24,7 +26,7 @@
     <content contentuid="PV_HandsOfHealinglv1Description" version="1">When you touch a creature, you can restore [1].</content>
     <content contentuid="PV_HandsOfHealinglv2Description" version="1">When you touch a creature, you can restore [1] and cure it of &lt;LSTag Type="Status" Tooltip="DISEASED"&gt;Disease&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysis&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt;.</content>
     <content contentuid="KHB_HandsOfHarmDisplayName" version="1">Hands of Harm</content>
-    <content contentuid="KHB_HandsOfHarmDescription" version="1">Having seen and seeded so much life, you gain insight into its ruin. You can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; a creature you can touch indefinitely.</content>
+    <content contentuid="KHB_HandsOfHarmDescription" version="1">Having seen and seeded so much life, you gain insight into its ruin. You can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; a creature you can touch until its next long rest.</content>
     <content contentuid="PV_HandOfUltimateMercyDisplayName" version="1">Hand of Ultimate Mercy</content>
     <content contentuid="PV_HandOfUltimateMercyDescription" version="1">Bless a companion with your lips of life. They return from death with [1].</content>
 

@@ -1,3 +1,14 @@
+new entry "KHB_charmingFingers"
+type "PassiveData"
+data "DisplayName" "KHB_charmingFingersDisplayName;2"
+data "Description" "KHB_charmingFingersDescription;4"
+data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
+data "Properties" "Highlighted"
+data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
+data "BoostConditions" "IsCharismaGreaterThanStrength();Unarmed(context.Source)"
+data "Boosts" "RollBonus(Attack,CharismaModifier);RollBonus(Damage,CharismaModifier);UnlockSpell(KHB_Target_CharmedLights)"
+
+
 new entry "KHB_palpativeHeat_Passive"
 type "PassiveData"
 data "DisplayName" "KHB_palpativeHeatDisplayName;2"
