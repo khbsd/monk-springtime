@@ -97,14 +97,14 @@ data "Boosts" "ProficiencyBonus(Skill,Persuasion);ProficiencyBonus(Skill,Decepti
 new entry "KHB_charmEntitylv1_Passive"
 type "PassiveData"
 data "DisplayName" "KHB_charmEntityDisplayName;1"
-data "Description" "KHB_charmEntityDescription;1"
+data "Description" "KHB_charmEntitylv1Description;1"
 data "Boosts" "UnlockSpell(KHB_Target_CharmEntity_1)"
 
 
 new entry "KHB_charmEntitylv2_Passive"
 type "PassiveData"
 data "DisplayName" "KHB_charmEntityDisplayName;1"
-data "Description" "KHB_charmEntityDescription;1"
+data "Description" "KHB_charmEntitylv2Description;1"
 data "Boosts" "UnlockSpell(KHB_Target_CharmEntity_2)"
 
 
@@ -118,16 +118,16 @@ data "Boosts" "UnlockSpell(KHB_Target_HandsOfHarm)"
 
 new entry "PV_HandsOfHealingUnlock"
 type "PassiveData"
-data "DisplayName" "KHB_gentleWindDisplayName;1"
-data "Description" "KHB_gentleWindDisplayName;1"
+data "DisplayName" "PV_HandsOfHealingDisplayName;1"
+data "Description" "PV_HandsOfHealinglv1Description;1"
 data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
 data "Boosts" "UnlockSpell(PV_Target_HandsOfHealing)"
 
 
 new entry "PV_HandsOfHealingUnlock_2"
 type "PassiveData"
-data "DisplayName" "KHB_gentleWindDisplayName;1"
-data "Description" "KHB_gentleWindDisplayName;1"
+data "DisplayName" "PV_HandsOfHealingDisplayName;1"
+data "Description" "PV_HandsOfHealinglv2Description;1"
 data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
 data "Boosts" "UnlockSpell(PV_Target_HandsOfHealing_2)"
 

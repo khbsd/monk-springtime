@@ -43,7 +43,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Springtime"/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="PassivesAdded" type="LSString" value="KHB_charmEntitylv1_Passive;PV_HandsOfHealingUnlock"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
