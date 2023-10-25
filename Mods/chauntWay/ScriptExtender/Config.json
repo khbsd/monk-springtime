@@ -1,6 +1,6 @@
 {
     "RequiredVersion": 1,
-    "ModTable": "PathOfTheStormHerald",
+    "ModTable": "Springtime",
     "FeatureFlags": [
         "Osiris",
         "Lua"
