@@ -48,3 +48,11 @@
 
 ### Hand of Ultimate Mercy
  - Bless a companion with your lips of life. They return from death with 4d10 plus your Wisdom Modifier hit points.
+
+
+## Level 12
+### Separate the Chaff
+ - When you bring a creature down to fewer than 24 plus your proficiency bonus hit points, it dies immediately and all nearby creatures within 3m take 1d6 Force Damage.
+
+### Skilled Hands
+ - Your hands know the intricacies of most living things like their backs. Your strikes deal an additional double your Wisdom Modifier in Bludgeoning Damage, and ignore Resistance and Immunity to Bludgeoning damage.
