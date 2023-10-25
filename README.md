@@ -34,7 +34,7 @@
  - You feel the air between you and your target undulating in time with their heartbeat. As an action, you may spend a Ki Point to force this creature to make a Wisdom Saving Throw or be Charmed for 5 turns.
 
 ### Hands of Healing
- - When you touch a creature, you can restore a Martial Arts Die roll plus your Wisdom Modifier of hit points.
+ - When you touch a creature, you can restore hit points equal to your Martial Arts Die plus your Wisdom Modifier.
 
 
 ## Level 9
@@ -42,7 +42,7 @@
  - You feel the air between you and your target undulating in time with their heartbeat. As a bonus action, you may spend a Ki Point to force this creature to make a Wisdom Saving Throw or be Charmed for 7 turns.
 
 ### Hands of Healing (upgrade)
- - When you touch a creature, you can restore a Martial Arts Die roll plus your Wisdom Modifier of hit points, as well as cure it of Disease, Poison, Paralysis, Stun, and Blindness.
+ - When you touch a creature, you can restore hit points equal to your Martial Arts Die plus your Wisdom Modifier, as well as cure it of Disease, Poison, Paralysis, Stun, and Blindness.
 
 
 ## Level 11
@@ -50,12 +50,12 @@
  - Having seen and seeded so much life, you gain insight into its ruin. You can Poison a creature you can touch until its next long rest.
 
 ### Hand of Ultimate Mercy
- - Bless a companion with your lips of life. They return from death with 4d10 plus your Wisdom Modifier hit points.
+ - Bless a companion with your lips of life. They return from death and heal for hit points equal to 4d10 plus your Wisdom Modifier.
 
 
 ## Level 12
 ### Separate the Chaff
- - When you bring a creature down to fewer than 24 plus your proficiency bonus hit points, it dies immediately and all nearby creatures within 3m take 1d6 Force Damage.
+ - When you bring a creature down to hit points fewer than 24 plus your proficiency bonus, it dies immediately and all nearby creatures within 3m take 1d6 Force Damage.
 
 ### Skilled Hands
  - Your hands know the intricacies of most living things like their backs. Your strikes deal additional Bludgeoning damage equal to double your Wisdom Modifier, and ignore Resistance and Immunity to Bludgeoning damage.
