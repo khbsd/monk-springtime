@@ -5,7 +5,7 @@ data "Description" "KHB_charmingFingersDescription;4"
 data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
 data "Properties" "Highlighted"
 data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
-data "BoostConditions" "IsCharismaGreaterThanStrength();Unarmed(context.Source)"
+data "BoostConditions" "IsCharismaGreaterThanStrength();IsMeleeUnarmedAttack()"
 data "Boosts" "RollBonus(Attack,CharismaModifier);RollBonus(Damage,CharismaModifier);UnlockSpell(KHB_Target_CharmedLights)"
 
 
