@@ -84,7 +84,7 @@ data "Icon" "PassiveFeature_UnarmoredDefense"
 data "Properties" "Highlighted"
 data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "not HasShieldEquipped(context.Source)"
-data "Boosts" "ACOverrideFormula(11,true,Charisma,Wisdom);MaximizeHealing(Incoming)"
+data "Boosts" "ACOverrideFormula(12,true,Charisma,Wisdom);MaximizeHealing(Incoming);Proficiency(LightArmor)"
 
 
 new entry "KHB_caretakerCaress_Passive"
