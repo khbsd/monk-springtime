@@ -36,7 +36,7 @@
     <content contentuid="KHB_caretakerTongueDisplayName" version="1">Caretaker's Tongue</content>
     <content contentuid="KHB_caretakerTongueDescription" version="1">A sensation like warm honey pours over your tongue. You become &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in &lt;LSTag Tooltip="Deception"&gt;Deception&lt;/LSTag&gt;, &lt;LSTag Tooltip="Persuasion"&gt;Persuasion&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Insight"&gt;Insight&lt;/LSTag&gt;.</content>
     <content contentuid="KHB_bastionOfEarthDisplayName" version="1">Bastion of Earth</content>
-    <content contentuid="KHB_bastionOfEarthDescription" version="1">Your body and soul unite to defend life. While not wearing armour, you add your Charisma and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+    <content contentuid="KHB_bastionOfEarthDescription" version="1">Your body and soul unite to defend life. You add your Charisma and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, and you maximize the amount of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; regained when you heal.</content>
     <content contentuid="KHB_chaffFromWheatDisplayName" version="1">Separate the Chaff</content>
     <content contentuid="KHB_chaffFromWheatDescription" version="1">When you bring a creature down to fewer than [2] &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it dies and all nearby creatures take [1].</content>
 

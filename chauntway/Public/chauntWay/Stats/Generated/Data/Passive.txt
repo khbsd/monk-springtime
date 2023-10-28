@@ -83,8 +83,8 @@ data "Description" "KHB_bastionOfEarthDescription;5"
 data "Icon" "PassiveFeature_UnarmoredDefense"
 data "Properties" "Highlighted"
 data "BoostContext" "OnEquip;OnCreate"
-data "BoostConditions" "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)"
-data "Boosts" "ACOverrideFormula(11,true,Charisma,Wisdom)"
+data "BoostConditions" "not HasShieldEquipped(context.Source)"
+data "Boosts" "ACOverrideFormula(11,true,Charisma,Wisdom);MaximizeHealing(Incoming)"
 
 
 new entry "KHB_caretakerCaress_Passive"

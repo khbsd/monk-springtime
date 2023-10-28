@@ -10,7 +10,7 @@
  - A sensation like warm honey pours over your tongue. You become Proficient in Deception, Persuasion, and Insight.
 
 ### Bastion of Earth
- - Your body and soul unite to defend life. While not wearing armour, you add your Charisma and Wisdom Modifiers to your Armour Class.
+ - Your body and soul unite to defend life. You add your Charisma and Wisdom Modifiers to your Armour Class, and you maximize the amount of hit points regained when you heal.
 
 ### Charming Fingers
  - Your fingers, long used to caring for living things, now have a seductive strength all their own. Your unarmed attacks scale with your Charisma Modifier.
