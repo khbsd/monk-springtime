@@ -31,7 +31,7 @@
 
 ## Level 6
 ### Charm Entity
- - You feel the air between you and your target undulating in time with their heartbeat. As an action, you may spend a Ki Point to force this creature to make a Wisdom Saving Throw or be Charmed for 5 turns. On a success, you regain 1 Ki Point.
+ - You feel the air between you and your target undulating in time with their heartbeat. As an action, you may spend a Ki Point to force this creature to make a Charisma Saving Throw or be Charmed for 5 turns. On a success, you regain 1 Ki Point.
 
 ### Hands of Healing
  - When you touch a creature, you can restore hit points equal to your Martial Arts Die plus your Wisdom Modifier.
@@ -39,7 +39,7 @@
 
 ## Level 9
 ### Charm Entity (upgrade)
- - You feel the air between you and your target undulating in time with their heartbeat. As a bonus action, you may spend a Ki Point to force this creature to make a Wisdom Saving Throw or be Charmed for 7 turns. On a success, you regain 2 Ki Points.
+ - You feel the air between you and your target undulating in time with their heartbeat. As a bonus action, you may spend a Ki Point to force this creature to make a Charisma Saving Throw or be Charmed for 7 turns. On a success, you regain 2 Ki Points.
 
 ### Hands of Healing (upgrade)
  - When you touch a creature, you can restore hit points equal to your Martial Arts Die plus your Wisdom Modifier, as well as cure it of Disease, Poison, Paralysis, Stun, and Blindness.
