@@ -17,16 +17,16 @@
 
 ##### (you may only use one of the following four at a time)
 ### Palpative Heat
- - Your strikes pulse like the heat of the earth, flushed skin, warm soil. Your unarmed attacks deal an additional 1d4 Fire Damage.
+ - Your strikes pulse like the heat of the earth, flushed skin, warm soil. Your unarmed attacks deal additional Fire Damage equal to 1d4 plus your Charisma Modifier.
 
 ### Cooling Touch
- - Your strikes soothe burns, calm anger, and thicken blood. Your unarmed attacks deal an additional 1d4 Cold Damage.
+ - Your strikes soothe burns, calm anger, and thicken blood. Your unarmed attacks deal additional Cold Damage equal to 1d4 plus your Charisma Modifier.
 
 ### Fertile Earth
- - Your strikes synchronize with the earth, rhythms somewhere between love and an earthquake. Your unarmed attacks deal an additional 1d4 Force Damage.
+ - Your strikes synchronize with the earth, rhythms somewhere between love and an earthquake. Your unarmed attacks deal additional Force Damage equal to 1d4 plus your Charisma Modifier.
 
 ### Gentle Wind
- - Your strikes embody a warm breeze on bare flesh, as nimble as wind rolling through wheat fields. Your unarmed attacks deal an additional 1d4 Thunder Damage.
+ - Your strikes embody a warm breeze on bare flesh, as nimble as wind rolling through wheat fields. Your unarmed attacks deal additional Thunder Damage equal to 1d4 plus your Charisma Modifier.
 
 
 ## Level 6
