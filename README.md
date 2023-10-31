@@ -13,7 +13,7 @@
  - Your body and soul unite to defend life. You add your Charisma and Wisdom Modifiers to your Armour Class, and you maximize the amount of hit points regained when you heal.
 
 ### Charming Fingers
- - Your fingers, long used to caring for living things, now have a seductive strength all their own. Your unarmed attacks scale with your Charisma Modifier.
+ - Your fingers, long used to caring for living things, now have a seductive strength all their own. Your unarmed attacks scale with your Charisma Modifier, but you lose your bonuses to Monk Weapons.
 
 ##### (you may only use one of the following four at a time)
 ### Palpative Heat
@@ -31,7 +31,7 @@
 
 ## Level 6
 ### Charm Entity
- - You feel the air between you and your target undulating in time with their heartbeat. As an action, you may spend a Ki Point to force this creature to make a Wisdom Saving Throw or be Charmed for 5 turns.
+ - You feel the air between you and your target undulating in time with their heartbeat. As an action, you may spend a Ki Point to force this creature to make a Wisdom Saving Throw or be Charmed for 5 turns. On a success, you regain 1 Ki Point.
 
 ### Hands of Healing
  - When you touch a creature, you can restore hit points equal to your Martial Arts Die plus your Wisdom Modifier.
@@ -39,7 +39,7 @@
 
 ## Level 9
 ### Charm Entity (upgrade)
- - You feel the air between you and your target undulating in time with their heartbeat. As a bonus action, you may spend a Ki Point to force this creature to make a Wisdom Saving Throw or be Charmed for 7 turns.
+ - You feel the air between you and your target undulating in time with their heartbeat. As a bonus action, you may spend a Ki Point to force this creature to make a Wisdom Saving Throw or be Charmed for 7 turns. On a success, you regain 2 Ki Points.
 
 ### Hands of Healing (upgrade)
  - When you touch a creature, you can restore hit points equal to your Martial Arts Die plus your Wisdom Modifier, as well as cure it of Disease, Poison, Paralysis, Stun, and Blindness.
