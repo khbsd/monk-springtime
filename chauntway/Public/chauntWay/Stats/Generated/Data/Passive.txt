@@ -5,8 +5,8 @@ data "Description" "KHB_charmingFingersDescription;4"
 data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
 data "Properties" "Highlighted"
 data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
-data "BoostConditions" "IsCharismaGreaterThanStrength();IsMeleeUnarmedAttack()"
-data "Boosts" "RollBonus(Attack,CharismaModifier);RollBonus(Damage,CharismaModifier);UnlockSpell(KHB_Target_CharmedLights)"
+data "BoostConditions" "IsCharismaGreaterThanStrength()"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):RollBonus(Attack,CharismaModifier);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(CharismaModifier,Bludgeoning);UnlockSpell(KHB_Target_CharmedLights)"
 
 
 new entry "KHB_palpativeHeat_Passive"
