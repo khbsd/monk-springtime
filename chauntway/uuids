@@ -1,5 +1,5 @@
 meta.lsx (mod) UUID "d0766f1b-3e74-4442-ba79-8ed733e22976"
-subclass uuid "4a869509-5807-4580-b570-0bf9fc2cc400"
+subclass UUID "4a869509-5807-4580-b570-0bf9fc2cc400"
 progressionTableUUID "c5306dad-68bf-4d2b-8cba-b153fd49ccb4"
 ProgressionDescriptions.lsx UUID "9a7db5ca-daa4-46b2-956c-a4f3a81db093"
 
