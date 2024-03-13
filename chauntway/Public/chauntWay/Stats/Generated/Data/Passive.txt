@@ -71,7 +71,7 @@ data "DescriptionParams" "DealDamage(1d6,Force);Level+ProficiencyBonus"
 data "Icon" "PassiveFeature_GrimHarvest"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "HasLessHPThanPlayerLevel() and not IsKillingBlow() and TotalAttackDamageDoneGreaterThan(0) and not HasStatus('SG_Polymorph')"
+data "Conditions" "HasLessHPThanPlayerLevel() and not IsKillingBlow() and TotalAttackDamageDoneGreaterThan(0) and not HasStatus('SG_Polymorph') and Enemy()"
 data "StatsFunctors" "Kill();CreateExplosion(KHB_chaffFromWheat_Projectile)"
 data "ToggleGroup" "NonLethal"
 
