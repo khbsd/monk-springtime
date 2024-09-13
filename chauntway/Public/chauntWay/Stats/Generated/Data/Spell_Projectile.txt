@@ -1,7 +1,7 @@
 new entry "KHB_chaffFromWheat_Projectile"
 type "SpellData"
 data "SpellType" "Projectile"
-data "SpellProperties" "DealDamage(1d6,Force)"
+data "SpellProperties" "DealDamage(1d4,Force)"
 data "ExplodeRadius" "3"
 data "TargetConditions" "Character() and Enemy()"
 data "Trajectories" "f78a99dd-80a7-4427-a950-239dc0041490,b4866815-93f5-6b2f-ff06-5f343f008f81"

@@ -6,7 +6,7 @@ data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
 data "Properties" "Highlighted"
 data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
 data "BoostConditions" "IsCharismaGreaterThanStrength()"
-data "Boosts" "IF(IsMeleeUnarmedAttack()):RollBonus(Attack,CharismaModifier);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(CharismaModifier,Bludgeoning);UnlockSpell(KHB_Target_CharmedLights);MonkWeaponAttackOverride()"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):RollBonus(Attack,CharismaModifier);UnlockSpell(KHB_Target_CharmedLights);MonkWeaponAttackOverride()"
 
 
 new entry "KHB_palpativeHeat_Passive"
@@ -83,8 +83,8 @@ data "Description" "KHB_bastionOfEarthDescription;5"
 data "Icon" "PassiveFeature_UnarmoredDefense"
 data "Properties" "Highlighted"
 data "BoostContext" "OnEquip;OnCreate"
-data "BoostConditions" "not HasShieldEquipped(context.Source)"
-data "Boosts" "ACOverrideFormula(12,true,Charisma,Wisdom);MaximizeHealing(Incoming);Proficiency(LightArmor)"
+data "BoostConditions" "not HasShieldEquipped(context.Source) and not WearingArmor()"
+data "Boosts" "ACOverrideFormula(10,true,Charisma,Dexterity);IF(CharacterLevelGreaterThan(10)):MaximizeHealing(Incoming)"
 
 
 new entry "KHB_caretakerCaress_Passive"
@@ -102,7 +102,7 @@ data "DisplayName" "KHB_caretakerTongueDisplayName;1"
 data "Description" "KHB_caretakerTongueDescription;1" 
 data "Icon" "PassiveFeature_Charm"
 data "Properties" "IgnoreResting;ApplyToDead;BringIntoCombat;Highlighted"
-data "Boosts" "ProficiencyBonus(Skill,Persuasion);ProficiencyBonus(Skill,Deception);ProficiencyBonus(Skill,Insight)"
+data "Boosts" "ProficiencyBonus(Skill,Persuasion)"
 
 
 new entry "KHB_charmEntitylv1_Passive"
